@@ -1,0 +1,8 @@
+{
+  "plugins": ["react", "react-native", "simple-import-sort"],
+  "extends": [],
+  "rules": {
+    "simple-import-sort/imports": "error",
+    "simple-import-sort/exports": "error"
+  }
+}
