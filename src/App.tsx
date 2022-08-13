@@ -1,5 +1,5 @@
 import { StatusBar } from 'expo-status-bar';
-import { extendTheme, NativeBaseProvider } from 'native-base';
+import { NativeBaseProvider } from 'native-base';
 import useCachedResources from 'src/hooks/useCachedResources';
 import useColorScheme from 'src/hooks/useColorScheme';
 import Navigation from 'src/navigation';
