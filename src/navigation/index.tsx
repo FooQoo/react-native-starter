@@ -11,20 +11,20 @@ import {
   NavigationContainer,
 } from '@react-navigation/native';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
-import Colors from 'constants/Colors';
-import useColorScheme from 'hooks/useColorScheme';
-import LinkingConfiguration from 'navigation/LinkingConfiguration';
 import * as React from 'react';
 import { ColorSchemeName, Pressable } from 'react-native';
-import ModalScreen from 'screens/ModalScreen';
-import NotFoundScreen from 'screens/NotFoundScreen';
-import TabOneScreen from 'screens/TabOneScreen';
-import TabTwoScreen from 'screens/TabTwoScreen';
+import Colors from 'src/constants/Colors';
+import useColorScheme from 'src/hooks/useColorScheme';
+import LinkingConfiguration from 'src/navigation/LinkingConfiguration';
+import ModalScreen from 'src/screens/ModalScreen';
+import NotFoundScreen from 'src/screens/NotFoundScreen';
+import TabOneScreen from 'src/screens/TabOneScreen';
+import TabTwoScreen from 'src/screens/TabTwoScreen';
 import {
   RootStackParamList,
   RootTabParamList,
   RootTabScreenProps,
-} from 'types';
+} from 'src/types';
 
 export default function Navigation({
   colorScheme,
