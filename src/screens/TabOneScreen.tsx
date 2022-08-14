@@ -4,9 +4,7 @@ import EditScreenInfo from 'src/components/EditScreenInfo';
 import { View } from 'src/components/Themed';
 import { RootTabScreenProps } from 'src/types';
 
-export default function TabOneScreen({
-  navigation,
-}: RootTabScreenProps<'TabOne'>) {
+const TabOneScreen = ({ navigation }: RootTabScreenProps<'TabOne'>) => {
   return (
     <View style={styles.container}>
       <Text style={styles.title}>Tab One</Text>
@@ -18,7 +16,9 @@ export default function TabOneScreen({
       <EditScreenInfo path="/screens/TabOneScreen.tsx" />
     </View>
   );
-}
+};
+
+export default TabOneScreen;
 
 const styles = StyleSheet.create({
   container: {

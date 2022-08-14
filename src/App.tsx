@@ -4,7 +4,7 @@ import useCachedResources from 'src/hooks/useCachedResources';
 import useColorScheme from 'src/hooks/useColorScheme';
 import Navigation from 'src/navigation';
 
-export default function App() {
+const App = () => {
   const isLoadingComplete = useCachedResources();
   const colorScheme = useColorScheme();
 
@@ -16,4 +16,6 @@ export default function App() {
       <StatusBar />
     </NativeBaseProvider>
   );
-}
+};
+
+export default App;
