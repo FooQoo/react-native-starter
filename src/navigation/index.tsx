@@ -26,7 +26,9 @@ import {
   RootTabScreenProps,
 } from 'src/types';
 
-const Navigation = ({ colorScheme }: { colorScheme: ColorSchemeName }) => {
+const Navigation: React.FC<{ colorScheme: ColorSchemeName }> = ({
+  colorScheme,
+}) => {
   return (
     <NavigationContainer
       linking={LinkingConfiguration}
@@ -134,9 +136,9 @@ const BottomTabNavigator = () => {
 /**
  * You can explore the built-in icon families and icons on the web at https://icons.expo.fyi/
  */
-const TabBarIcon = (props: {
+const TabBarIcon: React.FC<{
   name: React.ComponentProps<typeof FontAwesome>['name'];
   color: string;
-}) => {
+}> = (props) => {
   return <FontAwesome size={30} style={{ marginBottom: -3 }} {...props} />;
 };

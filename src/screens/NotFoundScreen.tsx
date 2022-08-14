@@ -3,7 +3,9 @@ import { StyleSheet, TouchableOpacity } from 'react-native';
 import { View } from 'src/components/Themed';
 import { RootStackScreenProps } from 'src/types';
 
-const NotFoundScreen = ({ navigation }: RootStackScreenProps<'NotFound'>) => {
+const NotFoundScreen: React.FC<RootStackScreenProps<'NotFound'>> = ({
+  navigation,
+}) => {
   return (
     <View style={styles.container}>
       <Text style={styles.title}>This screen doesn't exist.</Text>

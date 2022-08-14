@@ -4,7 +4,9 @@ import EditScreenInfo from 'src/components/EditScreenInfo';
 import { View } from 'src/components/Themed';
 import { RootTabScreenProps } from 'src/types';
 
-const TabOneScreen = ({ navigation }: RootTabScreenProps<'TabOne'>) => {
+const TabOneScreen: React.FC<RootTabScreenProps<'TabOne'>> = ({
+  navigation,
+}) => {
   return (
     <View style={styles.container}>
       <Text style={styles.title}>Tab One</Text>

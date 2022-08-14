@@ -4,7 +4,7 @@ import { StyleSheet, TouchableOpacity } from 'react-native';
 import { MonoText } from 'src/components/StyledText';
 import { View } from 'src/components/Themed';
 
-const EditScreenInfo = ({ path }: { path: string }) => {
+const EditScreenInfo: React.FC<{ path: string }> = ({ path }) => {
   return (
     <View>
       <View style={styles.getStartedContainer}>
