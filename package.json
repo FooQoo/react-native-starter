@@ -43,7 +43,7 @@
     "@babel/core": "7.19.0",
     "@expo/webpack-config": "0.17.2",
     "@types/react": "18.0.19",
-    "@types/react-native": "0.69.6",
+    "@types/react-native": "0.69.8",
     "@typescript-eslint/parser": "5.36.2",
     "eslint": "8.23.0",
     "eslint-config-prettier": "8.5.0",
