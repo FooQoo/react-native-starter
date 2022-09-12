@@ -44,7 +44,7 @@
     "@expo/webpack-config": "0.17.2",
     "@types/react": "18.0.19",
     "@types/react-native": "0.69.8",
-    "@typescript-eslint/parser": "5.36.2",
+    "@typescript-eslint/parser": "5.37.0",
     "eslint": "8.23.0",
     "eslint-config-prettier": "8.5.0",
     "eslint-plugin-react": "7.31.8",
