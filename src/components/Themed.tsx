@@ -39,7 +39,7 @@ export const Text: React.FC<TextProps> = (props) => {
 export const View: React.FC<ViewProps> = (props) => {
   const { style, lightColor, darkColor, ...otherProps } = props;
   const backgroundColor = useThemeColor(
-    { light: lightColor, dark: darkColor },
+    { light: lightColor, dark: lightColor },
     'background'
   );
 

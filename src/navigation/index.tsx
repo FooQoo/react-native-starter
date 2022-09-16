@@ -32,7 +32,7 @@ const Navigation: React.FC<{ colorScheme: ColorSchemeName }> = ({
   return (
     <NavigationContainer
       linking={LinkingConfiguration}
-      theme={colorScheme === 'dark' ? DarkTheme : DefaultTheme}
+      theme={colorScheme === 'dark' ? DefaultTheme : DefaultTheme}
     >
       <RootNavigator />
     </NavigationContainer>

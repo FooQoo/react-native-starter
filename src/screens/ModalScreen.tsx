@@ -11,7 +11,8 @@ const ModalScreen = () => {
       <View
         style={styles.separator}
         lightColor="#eee"
-        darkColor="rgba(255,255,255,0.1)"
+        // darkColor="rgba(255,255,255,0.1)"
+        darkColor="#eee"
       />
       <EditScreenInfo path="/screens/ModalScreen.tsx" />
 
