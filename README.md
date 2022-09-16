@@ -15,6 +15,10 @@ $ yarn install
 $ yarn ios
 ```
 
+## Running on device
+
+See [run-on-device](https://docs.expo.dev/workflow/run-on-device/)
+
 ## Referrenece
 
 - [React - UI Framework ](https://reactjs.org/)
