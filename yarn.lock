@@ -2958,7 +2958,7 @@
   dependencies:
     "@react-types/shared" "^3.14.1"
 
-"@rnmapbox/maps@^10.0.0-beta.40":
+"@rnmapbox/maps@10.0.0-beta.40":
   version "10.0.0-beta.40"
   resolved "https://registry.yarnpkg.com/@rnmapbox/maps/-/maps-10.0.0-beta.40.tgz#7f6ffc6e27e0d614c2880315cb854fc3aa2b8256"
   integrity sha512-VVry+7lSG+hRoY3sPrzrZ/dfBLdZT/SeBzVEnNGlh9b5OEF7TiCl/3y/2pdpfdqb5BlclHLJdatzT54sdhRFiQ==
@@ -6400,7 +6400,7 @@ expo-constants@13.2.4, expo-constants@~13.2.0, expo-constants@~13.2.2, expo-cons
     "@expo/config" "~7.0.0"
     uuid "^3.3.2"
 
-expo-dev-client@~1.2.1:
+expo-dev-client@1.2.1:
   version "1.2.1"
   resolved "https://registry.yarnpkg.com/expo-dev-client/-/expo-dev-client-1.2.1.tgz#54eb6160d1b512f38e9832f41a10c5223aa81269"
   integrity sha512-LKFfReJbUDF3r3cSjt4PLmykKsfMonT1kdCc1Cepz82/btMzL/RASnRYjk7eGd+fcq06lethEQ+w2MLo/70hDQ==
@@ -11510,7 +11510,7 @@ react-native-codegen@^0.69.2:
     jscodeshift "^0.13.1"
     nullthrows "^1.1.1"
 
-react-native-dotenv@^3.3.1:
+react-native-dotenv@3.3.1:
   version "3.3.1"
   resolved "https://registry.yarnpkg.com/react-native-dotenv/-/react-native-dotenv-3.3.1.tgz#8f399cf28ca77d860d8e7f7323e439fa60a8ca0b"
   integrity sha512-gAKXout1XCwCqJ3QPGoQAF2eRzOHgOnwg3x19z+ssow8bDIksJeKBqvoHDyGziVilAIP1J0bEC9Jf+VF8nFang==
