@@ -10,7 +10,7 @@
 ```sh
 $ npm install -g expo-cli
 
-$ yarn install
+$ expo install
 
 $ yarn ios
 ```

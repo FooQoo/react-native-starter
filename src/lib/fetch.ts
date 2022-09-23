@@ -5,7 +5,6 @@ const baseURL =
 
 export const getGist = async () => {
   return await axios.get(baseURL).then((response) => {
-    console.info(response.data);
     return response.data;
   });
 };

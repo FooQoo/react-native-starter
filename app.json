@@ -17,7 +17,11 @@
     },
     "assetBundlePatterns": ["**/*"],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.fooqoo.reactnativestarter",
+      "infoPlist": {
+        "NSLocationWhenInUseUsageDescription": "[テスト文言]位置情報をアップロードします"
+      }
     },
     "android": {
       "adaptiveIcon": {
@@ -27,6 +31,14 @@
     },
     "web": {
       "favicon": "./src/assets/images/favicon.png"
-    }
+    },
+    "plugins": [
+      [
+        "@rnmapbox/maps",
+        {
+          "RNMapboxMapsImpl": "maplibre"
+        }
+      ]
+    ]
   }
 }
