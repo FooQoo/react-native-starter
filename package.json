@@ -22,7 +22,7 @@
     "@react-navigation/native": "6.0.13",
     "@react-navigation/native-stack": "6.9.0",
     "@rnmapbox/maps": "10.0.0-beta.45",
-    "axios": "0.27.2",
+    "axios": "1.1.2",
     "expo": "46.0.15",
     "expo-asset": "8.6.1",
     "expo-constants": "13.2.4",
