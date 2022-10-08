@@ -6452,25 +6452,25 @@ expo-constants@13.2.4, expo-constants@~13.2.0, expo-constants@~13.2.2, expo-cons
     "@expo/config" "~7.0.0"
     uuid "^3.3.2"
 
-expo-dev-client@1.2.1:
-  version "1.2.1"
-  resolved "https://registry.yarnpkg.com/expo-dev-client/-/expo-dev-client-1.2.1.tgz#54eb6160d1b512f38e9832f41a10c5223aa81269"
-  integrity sha512-LKFfReJbUDF3r3cSjt4PLmykKsfMonT1kdCc1Cepz82/btMzL/RASnRYjk7eGd+fcq06lethEQ+w2MLo/70hDQ==
+expo-dev-client@1.3.0:
+  version "1.3.0"
+  resolved "https://registry.yarnpkg.com/expo-dev-client/-/expo-dev-client-1.3.0.tgz#7f57b1e6a8b4b0a67e4786404f0e47043243a1e8"
+  integrity sha512-op1onFQy4EPXn9FlSLJ+hFKZVtuoIUUmBiKuruj7wa37ZZPkxdHEMFllSvnJAuCMQi3EqrRfvG69vDqZpcXseg==
   dependencies:
     "@expo/config-plugins" "~5.0.0"
-    expo-dev-launcher "1.2.1"
-    expo-dev-menu "1.2.1"
+    expo-dev-launcher "1.3.0"
+    expo-dev-menu "1.3.0"
     expo-dev-menu-interface "0.7.2"
     expo-manifests "~0.3.0"
     expo-updates-interface "~0.7.0"
 
-expo-dev-launcher@1.2.1:
-  version "1.2.1"
-  resolved "https://registry.yarnpkg.com/expo-dev-launcher/-/expo-dev-launcher-1.2.1.tgz#4270d1b67a6b6e9d7f0896eecca899175787664a"
-  integrity sha512-q1BBnC69mTlbpHpiaezoHJ5rQgkvdvl6NH9rNSrg0tUfNRMNLDhjHwQWSpDGGIww7rVJ354ysjQp8E35OKOEJw==
+expo-dev-launcher@1.3.0:
+  version "1.3.0"
+  resolved "https://registry.yarnpkg.com/expo-dev-launcher/-/expo-dev-launcher-1.3.0.tgz#91252c8cb58909d224ea926061d43e7e0c95c5d0"
+  integrity sha512-r0fSXh+TBeTgH2asu45qaURE27Qnkrn6U8ojYMMSw+Sb9d5VKsYDeBrhoRHuGa9zWFfRM9E1FOCVUeYEwOc7lw==
   dependencies:
     "@expo/config-plugins" "~5.0.0"
-    expo-dev-menu "1.2.1"
+    expo-dev-menu "1.3.0"
     resolve-from "^5.0.0"
     semver "^7.3.5"
 
@@ -6479,10 +6479,10 @@ expo-dev-menu-interface@0.7.2:
   resolved "https://registry.yarnpkg.com/expo-dev-menu-interface/-/expo-dev-menu-interface-0.7.2.tgz#2198d014bcbe11335225cc3f100226195b441bc4"
   integrity sha512-Ym0IFsgBj9bdInjRcxv6xfczdTCKfPKUAsLZ1sD5twpOs7oBViMnTC0+KTGkkYHG4EapWbu9yApPmbV3N10Zcg==
 
-expo-dev-menu@1.2.1:
-  version "1.2.1"
-  resolved "https://registry.yarnpkg.com/expo-dev-menu/-/expo-dev-menu-1.2.1.tgz#8325e5787a005663926e3b95d0f59e0fd6fa77b2"
-  integrity sha512-QurTAJitgIIXQKsZCEW+aY4y3RZFFR0ygP17p1odeoiCwsxKnoIkksKGOL46sdcLzONiVGZBu6z58Mg2JymfIQ==
+expo-dev-menu@1.3.0:
+  version "1.3.0"
+  resolved "https://registry.yarnpkg.com/expo-dev-menu/-/expo-dev-menu-1.3.0.tgz#213aaa056e329820c74bd0cfc1fc1f696f078246"
+  integrity sha512-mICoKfcp2UVeUPfHTlUDZTYXx8babAcSP+q/XTNMBkEeCM1oGLTGmMNyWqdB/Cz3h+HdNDGv81Lomj/ig4wQxQ==
   dependencies:
     "@expo/config-plugins" "~5.0.0"
     expo-dev-menu-interface "0.7.2"
@@ -6547,10 +6547,10 @@ expo-modules-autolinking@0.10.3:
     find-up "^5.0.0"
     fs-extra "^9.1.0"
 
-expo-modules-core@0.11.5:
-  version "0.11.5"
-  resolved "https://registry.yarnpkg.com/expo-modules-core/-/expo-modules-core-0.11.5.tgz#19d30e9b24b0b98ea614df3cb474293133a08bd4"
-  integrity sha512-KmTHtaL21M1AzKOmu3YM5K8ddCbbr6wgooG4uCb+o+7zZXe+BPP4jAPs5LLez1Et34OQcyjopxUpJ8r43HImvQ==
+expo-modules-core@0.11.7:
+  version "0.11.7"
+  resolved "https://registry.yarnpkg.com/expo-modules-core/-/expo-modules-core-0.11.7.tgz#538f2a4d7c353467fb0313de4788e86dd8f251e3"
+  integrity sha512-lTH6MYULX99JK3zN4bhjRD3I9Y1CGx0RAhpZ6gCTO8GQ/DNw4xZRUwburKL9dJeZM5G1xJOcGoBkTfeMjUVe+g==
   dependencies:
     compare-versions "^3.4.0"
     invariant "^2.2.4"
@@ -6599,10 +6599,10 @@ expo-web-browser@11.0.0:
   dependencies:
     compare-urls "^2.0.0"
 
-expo@46.0.13:
-  version "46.0.13"
-  resolved "https://registry.yarnpkg.com/expo/-/expo-46.0.13.tgz#86bb45ca3b0aa71d028129f2eb6e1292a750cd72"
-  integrity sha512-xaU8GlJ7j3vo1U5tSbFDsoJqUfTkRF4XDEUj/Dr/jqUf0GcvlMKuGe6HvnbMO9slxYQlYlWJUzvlAx38TLhxyA==
+expo@46.0.15:
+  version "46.0.15"
+  resolved "https://registry.yarnpkg.com/expo/-/expo-46.0.15.tgz#c10d27c0ee85669132310949f2e56e95b4a14469"
+  integrity sha512-/uZLQgXKni/rLoJPUESte901Z8owZH4weItLGhac2T37zZEUHIqcWdI/1+BaN8Racz9x54PzgbIMh09QMgv9mQ==
   dependencies:
     "@babel/runtime" "^7.14.0"
     "@expo/cli" "0.3.1"
@@ -6616,7 +6616,7 @@ expo@46.0.13:
     expo-font "~10.2.1"
     expo-keep-awake "~10.2.0"
     expo-modules-autolinking "0.10.3"
-    expo-modules-core "0.11.5"
+    expo-modules-core "0.11.7"
     fbemitter "^3.0.0"
     getenv "^1.0.0"
     invariant "^2.2.4"
