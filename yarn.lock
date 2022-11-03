@@ -2950,10 +2950,10 @@
   dependencies:
     "@react-types/shared" "^3.15.0"
 
-"@rnmapbox/maps@10.0.0-beta.53":
-  version "10.0.0-beta.53"
-  resolved "https://registry.yarnpkg.com/@rnmapbox/maps/-/maps-10.0.0-beta.53.tgz#d8c2752e4b35712f58dcec3c29a19b5d25e9c68a"
-  integrity sha512-jFMGoYJUnw+2E+BrWaJPiKE0m0PlxvILh2Ct374R6P1Xsx3Mri+wWOePYH+GvCx91vL6RMltboQlfV1oKVrWjw==
+"@rnmapbox/maps@10.0.0-beta.54":
+  version "10.0.0-beta.54"
+  resolved "https://registry.yarnpkg.com/@rnmapbox/maps/-/maps-10.0.0-beta.54.tgz#67eb89c1cd79907f7ec624dc7d2a245ef23bea36"
+  integrity sha512-OPNwClHtDUFMhj+d4cpXVl5hQ4WIKDAQjmX/0iHI2O4DUYxJLXqCAlN3tED7v5JO8XZsFTC8ZvdlamjaDaQTsw==
   dependencies:
     "@mapbox/geo-viewport" ">= 0.4.0"
     "@turf/along" "6.5.0"
