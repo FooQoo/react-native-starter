@@ -2018,7 +2018,7 @@
     "@jridgewell/resolve-uri" "3.1.0"
     "@jridgewell/sourcemap-codec" "1.4.14"
 
-"@mapbox/geo-viewport@>= 0.4.0":
+"@mapbox/geo-viewport@>=0.4.0":
   version "0.5.0"
   resolved "https://registry.yarnpkg.com/@mapbox/geo-viewport/-/geo-viewport-0.5.0.tgz#5e3b4ef19ed113169d168eec9c60840e430c52a6"
   integrity sha512-h0b10JU+lSxw8/TLXGdzcVTPxMN9Ikv0os8sCo0OAHXUiSDkQs5fx4WWLJeQTnC++qaGFl6/Ssr+H5N6NIvE5g==
@@ -3044,12 +3044,12 @@
   dependencies:
     "@react-types/shared" "^3.16.0"
 
-"@rnmapbox/maps@10.0.0-beta.59":
-  version "10.0.0-beta.59"
-  resolved "https://registry.yarnpkg.com/@rnmapbox/maps/-/maps-10.0.0-beta.59.tgz#fef5a52fb5452c90a1dafc992e9099d99595d582"
-  integrity sha512-OOb1XLtwNA36VTHb05/Z/kLJzZF83YFILZTNje+AO7dBGskckKaqUjRfuvv3Lei+Eo2cLNtEplv4K4vUxk16iA==
+"@rnmapbox/maps@10.0.0-beta.61":
+  version "10.0.0-beta.61"
+  resolved "https://registry.yarnpkg.com/@rnmapbox/maps/-/maps-10.0.0-beta.61.tgz#9012c7b1bf35ea121663339a58a6010f16e3d591"
+  integrity sha512-mZQgJVvJuAugd2ZgRmaBi86XfwQAlyp8CiNPveCx79t8JL+1Bu7C/yncZrKLjpCCTmXeVxb2PtKaZQj6n3vC+w==
   dependencies:
-    "@mapbox/geo-viewport" ">= 0.4.0"
+    "@mapbox/geo-viewport" ">=0.4.0"
     "@turf/along" "6.5.0"
     "@turf/distance" "6.5.0"
     "@turf/helpers" "6.5.0"
